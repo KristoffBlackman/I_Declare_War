@@ -1,0 +1,62 @@
+.gameTitle{
+	font-size: 50px;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	width: 50px;
+}
+
+.card{
+	padding: 10px 20px 20px 20px;
+	width: 198px;
+	height: 315px;
+    border-radius: 10px;
+}
+.lCard{
+	width:32px;
+	height:60px;
+	border-radius: 4px;
+	background-color: blue;
+	margin-left: 6px;
+	margin-top: 10px;
+/*	padding: 10px;*/
+}
+.col-xs-3{
+	margin-left: -15px; 
+}
+.col-xs-6{
+	color: white;
+}
+.pDeck{
+	background: #155faa;
+}
+.cDeck{
+	background: #e0200a;
+}
+.cCard{
+	font-size: 45px;
+	background-color: #ecf0f1;
+	color: #c0392b ;
+	border: solid #c0392b 7px;
+}
+.blank{
+	background-color: #b4cebf !important;
+	border: none !important;
+}
+
+.pCard{
+	font-size: 50px;
+	background-color: #ecf0f1;
+	color: #9e1d32;
+	border: solid #2c3e50 7px;
+}
+
+.bump{
+	margin: 18px;
+}
+#gameStatus{
+	font-size: 95px;
+}
+body{
+	background-color: #3a1c1c !important;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>"I Declare War"</title>
+	<link rel="stylesheet" href="style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+	<!-- Latest compiled and minified bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+</head>
+<header>
+	<div class="gameTitle">"I Declare War!"
+
+	</div>
+</header>
+<body>
+	<div class="container">
+		<div class="row bump">
+		</div>
+		<div class="row">
+			<div class ="col-xs-12">
+				<button id="newGame"> New Game! </button>
+				<div class="col-xs-6 col-xs-offset-3" id="gameStatus">
+				</div>
+			</div>
+				<div class="row">
+					<!-- player deck -->
+					<div class="col-xs-6">
+						<div class="col-xs-6">
+							<br>
+							<div class="pDeck card"> </div>
+						</div>
+						<div class="col-xs-6">
+							Player1:
+							<br>
+							<div class="pCard card blank" id="playerCard">  </div>
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="col-xs-3">
+										<div class="lCard"></div>
+									</div>
+									<div class="col-xs-3">
+										<div class="lCard"></div>
+									</div>
+									<div class="col-xs-3">
+										<div class="lCard"></div>
+									</div>
+									<div class="col-xs-3">
+										<div class="lCard"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<div class="col-xs-6">
+							Computer:
+							<br>
+							<div class="cCard card blank" id="computerCard">  </div>
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="col-xs-3">
+										<div class="lCard"></div>
+									</div>
+									<div class="col-xs-3">
+										<div class="lCard"></div>
+									</div>
+									<div class="col-xs-3">
+										<div class="lCard"></div>
+									</div>
+									<div class="col-xs-3">
+										<div class="lCard"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- computer deck -->
+						<div class="col-xs-6">
+							<br>
+							<div class="cDeck card"> </div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<br>
+					<button id="flip"> Play Card </button>
+					<br>
+					<button id="take">Take</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
